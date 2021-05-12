@@ -1,0 +1,15 @@
+[
+    {
+        "comment_text": "First!",
+        "user_id": 1
+    },
+    {
+        "comment_text": "Second :(",
+        "user_id": 2
+    },
+    {
+        "comment_text": "Haha",
+        "user_id": 1
+    }
+
+]

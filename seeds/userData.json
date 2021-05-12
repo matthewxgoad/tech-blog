@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Sal",
+    "user_name": "Salazar",
+    "email": "sal@hotmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Lernantino",
+    "user_name": "Leeto",
+    "email": "lernantino@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Amiko",
+    "user_name": "Amyyyy",
+    "email": "amiko2k20@aol.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Jordan",
+    "user_name": "Jordace",
+    "email": "jordan99@msn.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Blake",
+    "user_name": "ConwayB",
+    "email": "the_blake@yahoo.com",
+    "password": "password12345"
+  }
+]
