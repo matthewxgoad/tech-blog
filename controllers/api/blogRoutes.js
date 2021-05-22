@@ -17,14 +17,14 @@ router.post('/', withAuth, async (req, res) => {
 
 router.delete('/:id', withAuth, async (req, res) => {
   try {
-    const BlogData = await Blog.destroy({
+    const blogData = await Blog.destroy({
       where: {
         id: req.params.id,
         user_id: req.session.user_id,
       },
     });
 
-    if (!BlogData) {
+    if (!blogData) {
       res.status(404).json({ message: 'No entries found.' });
       return;
     }
