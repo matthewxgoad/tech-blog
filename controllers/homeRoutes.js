@@ -38,13 +38,13 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/blog/:id', async (req, res) => {
+router.get('/blogs/:id', async (req, res) => {
   try {
     const blogData = await Blog.findByPk(req.params.id, {
       include: [
         {
           model: User,
-          attributes: ['name'],
+          attributes: ['user_name'],
         },
       ],
     });
@@ -73,6 +73,7 @@ router.get('/profile', withAuth, async (req, res) => {
     console.log(user);
     res.render('profile', {
       ...user,
+      blogs: user.blogs,
       logged_in: true
     });
   } catch (err) {

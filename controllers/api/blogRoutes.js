@@ -3,7 +3,6 @@ const { Blog } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.get('/', withAuth, async (req, res) => {
-  console.log("static text");
   try {
     const newBlog = await Blog.findAll({
 
@@ -50,5 +49,6 @@ router.delete('/:id', withAuth, async (req, res) => {
     res.status(500).json(err);
   }
 });
+
 
 module.exports = router;

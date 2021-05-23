@@ -2,22 +2,26 @@
     {
         "title": "Day 01",
         "contents": "Today was the first day.",
-        "comment_id": [1, 2, 3]
+        "comment_id": [1, 2, 3],
+        "user_id": 3
     },
     {
         "title": "Day 02",
         "contents": "Today was the second day.",
-        "comment_id": []
+        "comment_id": [],
+        "user_id": 3
     },
     {
         "title": "Day 03",
         "contents": "Today was the third day.",
-        "comment_id": []
+        "comment_id": [],
+        "user_id": 3
     },
     {
         "title": "Day 04",
         "contents": "Today was the fourth day.",
-        "comment_id": []
+        "comment_id": [],
+        "user_id": 3
     }
 
 ]
